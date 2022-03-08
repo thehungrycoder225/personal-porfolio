@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Barcelony;
+  src: url(fonts/Barcelony.ttf);
+}
+
+@font-face {
+  font-family: Sanista;
+  src: url(fonts/SansitaSwashed-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: LemonMilk;
+    src: url(fonts/LEMONMILK-Medium.otf)
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Staatliches', cursive;
+}
+h1 {
+  font-family: LemonMilk;
+  letter-spacing: 1rem;
+  font-size: 3.5rem;
+  padding: 2rem;
+  margin:2rem auto;
+  color: transparent;
+  background:linear-gradient(#FFA900,#FF7600,#CD113B);
+  -webkit-background-clip: text;
+}
+
+#hero {
+  min-width: 100vw;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #151d3b, #d82148);
+}
+
+.text-mint {
+  color: #ffe23d;
+}
+
+.text-smoke {
+  color: #dadbbd;
+}
+
+p {
+  font-family: Sanista;3
+  font-weight: 300;
+}
